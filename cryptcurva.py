@@ -17,7 +17,7 @@ def exchange():
     if code and code_dollar:
         try:
             response = requests.get(
-                'https://api.coingecko.com/api/v3/exchange_rates?x_cg_demo_api_key=CG-4w4KCPwRCfNLjRrWtQGvKHkP')
+                'https://api...........
             response.raise_for_status()
             data = response.json()
             if code in data['rates']:
